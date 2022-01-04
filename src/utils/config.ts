@@ -1,0 +1,2 @@
+export const welcomeDescription =
+	"This application is intended to be used as a reminder. A reminder why you should be aware of everything which you do in life no matter if it's a task for a project, a simple challenge or a basic daily task. Everything you do has a purpose and also comes with a reward no matter how small it is. This application will help you focus not only on the task you are doing but also on the reward which should motivate you finalizing your work.";
