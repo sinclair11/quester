@@ -1,6 +1,3 @@
-// Say something
-console.log("[ERWT] : Preload execution started");
-
 // Get versions
 window.addEventListener("DOMContentLoaded", () => {
 	const replaceText = (selector: string, text: string): void => {
