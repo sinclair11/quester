@@ -18,7 +18,6 @@
 	  "@assets/*": ["./assets/*"],
 	  "@components/*": ["./src/components/*"],
 	  "@utils/*": ["./src/utils/*"],
-	  "@icons/*": ["./src/icons/*"],
 	  "@store/*": ["./src/store/*"],
     },
     "typeRoots": [
@@ -26,5 +25,5 @@
     ]
   },
   "include": ["src/**/*"],
-  "exclude": ["tools/**/*"],
+  "exclude": ["tools/**/*", "node_modules/*"],
 }
