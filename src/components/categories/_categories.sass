@@ -16,9 +16,12 @@
 	border: 1px solid colors.$main
 	overflow: hidden
 
-.ModalTop
+.TopBar
 	width: 100%
-	height: 30px
+	height: 32px
+	display: flex
+	align-items: center
+	justify-content: flex-end
 	border-bottom: 1px solid colors.$main
 
 .CategoryRow
@@ -98,6 +101,27 @@
 	background-color: grey
 	margin-left: 15px
 	margin-bottom: 10px
+	&:hover
+		cursor: pointer
+
+.BtnGroup
+	position: absolute
+	right: 10px
+	bottom: 10px
+
+.BtnCategory
+	background-color: black
+	color: white
+	border: 1px solid colors.$main
+	margin-left: 5px
+	padding: 5px
+	&:hover
+		cursor: pointer
+
+.CancelIcon
+	width: 24px
+	height: 24px
+	margin-right: 5px
 	&:hover
 		cursor: pointer
 
