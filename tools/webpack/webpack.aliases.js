@@ -8,4 +8,5 @@ module.exports = createWebpackAliases({
 	'@components': 'src/components',
 	'@utils': 'src/utils',
 	'@store': 'src/store',
+	'@public': 'public',
 })
